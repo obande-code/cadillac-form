@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    height: 100%
+}
+
+.form-group{
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.col-sm-1 {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.col-sm-1 h6{
+    margin-right: 20px !important;
+
+}
+
+.checlbx{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.form-check-inline #inlineCheckbox1{
+    margin-left: 50px !important;
+}
+
+.form-check-inline #inlineCheckbox2{
+    margin-left: 50px !important;
+}
+
+.form-check-inline #inlineCheckbox3{
+    margin-left: 50px !important;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+  }
