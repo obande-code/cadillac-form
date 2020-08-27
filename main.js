@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    $("#btn").click(function(e){
+    $("#myBtn").click(function(e){
        var jsonData = {};
   
-     var formData = $("#myform").serializeArray();
+     var formData = $("#myForm").serializeArray();
     // console.log(formData);
   
      $.each(formData, function() {
