@@ -25,15 +25,16 @@
                   factory warranty?</legend>
               </th>
               <td>
-                <label class="form-check-label" for="inlineRadio1">
-                  <input type="radio" name="section1_is_this_still_covered_by_its_original_warranty" id="inlineRadio1" value="option1">
-                  Yes
-                </label>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" class="custom-control-input" id="defaultInline1" name="inlineDefaultRadiosExample">
+                  <label class="custom-control-label" for="defaultInline1">Yes</label>
+                </div>
             </td>
             <td>
-                <label class="form-check-label" for="inlineRadio2">
-                  <input type="radio" name="section1_is_this_still_covered_by_its_original_warranty" id="inlineRadio2" value="option2">
-                  No</label>
+              <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="defaultInline2" name="inlineDefaultRadiosExample">
+                <label class="custom-control-label" for="defaultInline2">No</label>
+              </div>
             </td>
             </tr>
             <tr>
@@ -41,18 +42,20 @@
                 <legend class="col-form-label col-sm-10 pt-0">2 Owner’s Manual/Warranty Booklet Present</legend>
               </th>
               <td>
-                <label class="form-check-label" for="inlineRadio1">
-                  <input  type="radio" name="section2_is_owners_manual_booklet_present" id="inlineRadio1" value="option1">
-                  Yes</label>
-              </td>
-              <td>
-                <label class="form-check-label" for="inlineRadio2">
-                  <input  type="radio" name="section2_is_owners_manual_booklet_present" id="inlineRadio2" value="option2">
-                  No</label>
-              </td>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio1">Yes</label>
+                </div>
+            </td>
+            <td>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio2">No</label>
+              </div>
+            </td>
             </tr>
             <tr>
-              <th scope="row">
+              <th scope="row" colspan="4">
                 <legend>REVIEW THE VEHICLE’S HISTORY :</legend>
               </th>
             </tr>
@@ -61,60 +64,68 @@
                 <legend class="col-form-label col-sm-10 pt-0">3 GWM – Investigate Vehicle History Report</legend>
               </th>
               <td>
-                <label class="form-check-label" for="inlineRadio1">
-                  <input  type="radio" name="section3_investigate_vehicle_history_report" id="inlineRadio1" value="option1">
-                  Yes</label>
-              </td>
-              <td>
-                <label class="form-check-label" for="inlineRadio2">
-                  <input  type="radio" name="section3_investigate_vehicle_history_report" id="inlineRadio2" value="option2">
-                  No</label>
-              </td>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio3" name="section3_vehicle_history" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio3">Yes</label>
+                </div>
+            </td>
+            <td>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio4" name="section3_vehicle_history" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio4">No</label>
+              </div>
+            </td>
             </tr>
             <tr>
               <th scope="row">
                 <legend class="col-form-label col-sm-10 ml-3 pt-0">Open Recalls</legend>
               </th>
               <td>
-                <label class="form-check-label" for="inlineRadio1">
-                  <input  type="radio" name="section3_investigate_vehicle_history_open_recalls" id="inlineRadio1" value="option1">
-                  Yes</label>
-              </td>
-              <td>
-                <label class="form-check-label" for="inlineRadio2">
-                  <input  type="radio" name="section3_investigate_vehicle_history_open_recalls" id="inlineRadio2" value="option2">
-                  No</label>
-              </td>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio5" name="section3_open_recalls" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio5">Yes</label>
+                </div>
+            </td>
+            <td>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio6" name="section3_open_recalls" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio6">No</label>
+              </div>
+            </td>
             </tr>
             <tr>
               <th scope="row">
                 <legend class="col-form-label col-sm-10 ml-3 pt-0">Branded Title</legend>
               </th>
               <td>
-                <label class="form-check-label" for="inlineRadio1">
-                  <input  type="radio" name="section3_investigate_vehicle_history_branded_title" id="inlineRadio1" value="option1">
-                  Yes</label>
-              </td>
-              <td>
-                <label class="form-check-label" for="inlineRadio2">
-                  <input  type="radio" name="section3_investigate_vehicle_history_branded_title" id="inlineRadio2" value="option2">
-                  No</label>
-              </td>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio7" name="section3_branded" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio7">Yes</label>
+                </div>
+            </td>
+            <td>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio8" name="section3_branded" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio8">No</label>
+              </div>
+            </td>
             </tr>
             <tr>
               <th scope="row">
                 <legend class="col-form-label col-sm-10 ml-3 pt-0">Warranty Block</legend>
               </th>
               <td>
-                <label class="form-check-label" for="inlineRadio1">
-                  <input  type="radio" name="section3_investigate_vehicle_history_warranty_block" id="inlineRadio1" value="option1">
-                  Yes</label>
-              </td>
-              <td>
-                <label class="form-check-label" for="inlineRadio2">
-                  <input  type="radio" name="section3_investigate_vehicle_history_warranty_block" id="inlineRadio2" value="option2">
-                  No</label>
-              </td>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio9" name="section3_warranty" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio9">Yes</label>
+                </div>
+            </td>
+            <td>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio10" name="section3_warranty" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio10">No</label>
+              </div>
+            </td>
             </tr>
           </tbody>
           <tr>
@@ -122,19 +133,21 @@
               <legend class="col-form-label col-sm-10 pt-0">4 Vehicle History Report (Check One)</legend>
             </th>
             <td>
-              <label class="form-check-label" for="inlineRadio1">
-                <input  type="radio" name="section4_vehicle_history_report" id="inlineRadio1" value="option1">
-                Yes</label>
-            </td>
-            <td>
-              <label class="form-check-label" for="inlineRadio2">
-                <input  type="radio" name="section4_vehicle_history_report" id="inlineRadio2" value="option2">
-                No</label>
-            </td>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio11" name="section4_vehicle_history_check" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio11">Yes</label>
+              </div>
+          </td>
+          <td>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio12" name="section4_vehicle_history_check" class="custom-control-input">
+              <label class="custom-control-label" for="customRadio12">No</label>
+            </div>
+          </td>
           </tr>
           <tr>
             <th scope="row">
-              <label class="form-check-label ml-4" for="defaultCheck1">
+              <label class="form-check-label  ml-4" for="defaultCheck1">
                 Auto Check
               </label>
             </th>
@@ -167,15 +180,17 @@
               <legend class="col-form-label col-sm-10 pt-0">5 Check for vehicle trouble codex</legend>
             </th>
             <td>
-              <label class="form-check-label" for="inlineRadio1">
-                <input  type="radio" name="section5_check_for_vehicle_trouble_codex" id="inlineRadio1" value="option1">
-                Yes</label>
-            </td>
-            <td>
-              <label class="form-check-label" for="inlineRadio2">
-                <input  type="radio" name="section5_check_for_vehicle_trouble_codex" id="inlineRadio2" value="option2">
-                No</label>
-            </td>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio13" name="section5_check_codex" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio13">Yes</label>
+              </div>
+          </td>
+          <td>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio14" name="section5_check_codex" class="custom-control-input">
+              <label class="custom-control-label" for="customRadio14">No</label>
+            </div>
+          </td>
           </tr>
           <tr>
             <th scope="row">
@@ -186,15 +201,17 @@
                 Operations Manual.</legend>
             </th>
             <td>
-              <label class="form-check-label" for="inlineRadio1">
-                <input  type="radio" name="section6_is_this_vehicle_free_of_aftermath" id="inlineRadio1" value="option1">
-                Yes</label>
-            </td>
-            <td>
-              <label class="form-check-label" for="inlineRadio2">
-                <input  type="radio" name="section6_is_this_vehicle_free_of_aftermath" id="inlineRadio2" value="option2">
-                No</label>
-            </td>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio15" name="section6_operations_manual" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio15">Yes</label>
+              </div>
+          </td>
+          <td>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio16" name="section6_operations_manual" class="custom-control-input">
+              <label class="custom-control-label" for="customRadio16">No</label>
+            </div>
+          </td>
           </tr>
           <tr>
             <th scope="row">
@@ -209,15 +226,17 @@
               <legend class="col-form-label col-sm-10 pt-0">7 Is this vehicle a good candidate to be Certified?</legend>
             </th>
             <td>
-              <label class="form-check-label" for="inlineRadio1">
-                <input  type="radio" name="section7_is_this_vehicle_covered_by_good_certificate" id="inlineRadio1" value="option1">
-                  Yes</label>
-              </td>
-              <td>
-                <label class="form-check-label" for="inlineRadio2">
-                  <input  type="radio" name="section7_is_this_vehicle_covered_by_good_certificate" id="inlineRadio2" value="option2">
-                  No</label>
-                </td>
+              <div class="custom-control custom-radio">
+                <input type="radio" id="customRadio17" name="section7_is_this_vehicle_a_good_candeidate" class="custom-control-input">
+                <label class="custom-control-label" for="customRadio17">Yes</label>
+              </div>
+          </td>
+          <td>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="customRadio27" name="section7_is_this_vehicle_a_good_candeidate" class="custom-control-input">
+              <label class="custom-control-label" for="customRadio27">No</label>
+            </div>
+          </td>
           </tr>
         </tbody>
         </form>
